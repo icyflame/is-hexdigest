@@ -1,7 +1,7 @@
 {
   "name": "is-hexdigest",
   "version": "0.0.0",
-  "description": "Find out if the string is the hexdigest of an SHA256, SHA1 or MD5 hash",
+  "description": "Check if a string is a valid SHA1, MD5 or SHA256 checksum",
   "license": "MIT",
   "repository": "icyflame/is-hexdigest",
   "author": {
@@ -29,7 +29,10 @@
     "sha1",
     "md5"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "log-symbols": "^1.0.2",
+    "meow": "^3.3.0"
+  },
   "devDependencies": {
     "mocha": "*",
     "semistandard": "6.1.1"
