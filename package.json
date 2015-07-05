@@ -1,6 +1,6 @@
 {
   "name": "is-hexdigest",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Check if a string is a valid SHA1, MD5 or SHA256 checksum",
   "license": "MIT",
   "repository": "icyflame/is-hexdigest",
