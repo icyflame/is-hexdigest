@@ -1,6 +1,6 @@
 {
   "name": "is-hexdigest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if a string is a valid SHA1, MD5 or SHA256 checksum",
   "license": "MIT",
   "repository": "icyflame/is-hexdigest",
@@ -15,10 +15,10 @@
   "scripts": {
     "test": "semistandard && mocha"
   },
-	"bin": "cli.js",
+  "bin": "cli.js",
   "files": [
     "index.js",
-		"cli.js"
+    "cli.js"
   ],
   "keywords": [
     "hash",
