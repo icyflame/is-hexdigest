@@ -15,8 +15,10 @@
   "scripts": {
     "test": "semistandard && mocha"
   },
+	"bin": "cli.js",
   "files": [
-    "index.js"
+    "index.js",
+		"cli.js"
   ],
   "keywords": [
     "hash",
